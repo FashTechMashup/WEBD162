@@ -3,43 +3,6 @@ header, main, nav, footer, figure, figcaption, aside, section, article {
 }
 #mobile { display: none; }
 #desktop { display: none; }
-@media only screen and (max-width: 64em) {
-      body { margin: 0; padding: 0; }
-      #wrapper { min-width: 0; width: auto; margin: 0; padding: 0; }
-      header { padding-top: 1px; }
-      main { padding-top: 0; padding-bottom: 2.5em; padding-left: 1em;
-        padding-right: 1em; margin: 0; font-size: 90%; clear: both;
-      }
-      nav { float: none; }
-      nav a { padding: 0.2em; margin-left: 0.3em; float: left; width: 23%; }
-      h2 { padding-left: 2em; padding-right: 2em; }
-      h3 { padding-left: 2em; padding-right: 2em; }
-      p { padding-left: 2em; padding-right: 2em; }
-      dl { padding-left: 2em; padding-right: 2em; }
-      main ul { margin-left: 2em; margin-bottom: 1em; }
-      .clear { padding-left: 2em; }
-      #mathero { height: 150px; width: 80%; margin-left: auto;
-        margin-right: auto;
-      }
-      #loungehero { height: 150px; width: 80%; margin-left: auto;
-        margin-right: auto;
-      }
-}
-@media only screen and (max-width: 37.5em) {
-      h1 { font-size: 2em; padding-top: .25em; padding-left: 1.5em; width: 85%;
-        text-align: center;
-      }
-      nav a { padding: .5em; width: 45%; float: left; min-width: 6em;
-        margin-left: 0.5em
-      }
-      li { font-size: 100%; }
-      .floatleft { float: none; display: none; }
-      #mathero { background-image: none; height: 0; }
-      #loungehero { background-image: none; height: 0; }
-      footer { padding: 0.5em; margin: 0; }
-      #mobile { display: inline; }
-      #desktop { display: none; }
-}
 body { font-family: Verdana, Arial, sans-serif; background-color: #3F2860;
         color: #3F2860;
       }
@@ -84,3 +47,40 @@ main { padding: 0 3em 3em 3em; display: block; margin-left: 170px; }
             }
 .floatleft { float: left; margin-right: 4em; }
 .clear { clear: both; }
+@media only screen and (max-width: 64em) {
+      body { margin: 0; padding: 0; }
+      #wrapper { min-width: 0; width: auto; margin: 0; padding: 0; }
+      header { padding-top: 1px; }
+      main { padding-top: 0; padding-bottom: 2.5em; padding-left: 1em;
+        padding-right: 1em; margin: 0; font-size: 90%; clear: both;
+      }
+      nav { float: none; width: auto; padding-left: 2em; }
+      nav a { padding: 0.2em; margin-left: 0.3em; float: left; width: 23%; }
+      h2 { padding-left: 2em; padding-right: 2em; }
+      h3 { padding-left: 2em; padding-right: 2em; }
+      p { padding-left: 2em; padding-right: 2em; }
+      dl { padding-left: 2em; padding-right: 2em; }
+      main ul { margin-left: 2em; margin-bottom: 1em; }
+      .clear { padding-left: 2em; }
+      #mathero { height: 150px; width: 80%; margin-left: auto;
+        margin-right: auto;
+      }
+      #loungehero { height: 150px; width: 80%; margin-left: auto;
+        margin-right: auto;
+      }
+}
+@media only screen and (max-width: 37.5em) {
+      h1 { font-size: 2em; padding-top: .25em; padding-left: 1.5em; width: 85%;
+        text-align: center;
+      }
+      nav a { padding: .5em; width: 45%; float: left; min-width: 6em;
+        margin-left: 0.5em
+      }
+      li { font-size: 100%; }
+      .floatleft { float: none; display: none; }
+      #mathero { background-image: none; height: 0; }
+      #loungehero { background-image: none; height: 0; }
+      footer { padding: 0.5em; margin: 0; }
+      #mobile { display: inline; }
+      #desktop { display: none; }
+}
