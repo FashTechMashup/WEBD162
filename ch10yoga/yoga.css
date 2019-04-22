@@ -47,6 +47,12 @@ main { padding: 0 3em 3em 3em; display: block; margin-left: 170px; }
             }
 .floatleft { float: left; margin-right: 4em; }
 .clear { clear: both; }
+table { margin-left: auto; margin-right: auto; width: 60%; border: 1px solid #3F3860;
+  margin-bottom: 1em; border-collapse: collapse; }
+td { padding: 0.5em; border: 1px solid #3F3860; }
+tr:nth-of-type(even) { background-color: #D7E8E9; }
+th { padding: 0.5em; border: 1px solid #3F3860; }
+caption { margin: 1em; font-weight: bold; font-size: 120%; }
 @media only screen and (max-width: 64em) {
       body { margin: 0; padding: 0; }
       #wrapper { min-width: 0; width: auto; margin: 0; padding: 0; }
