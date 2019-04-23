@@ -53,6 +53,13 @@ td { padding: 0.5em; border: 1px solid #3F3860; }
 tr:nth-of-type(even) { background-color: #D7E8E9; }
 th { padding: 0.5em; border: 1px solid #3F3860; }
 caption { margin: 1em; font-weight: bold; font-size: 120%; }
+label { float: left; display: block; text-align: right; width: 10em;
+  padding: 1em;
+}
+input { display: block; margin-bottom: 2em; }
+textarea { display: block; margin-bottom: 2em; }
+input[type="submit"] {margin-left: 12em; }
+form { padding: 3em; }
 @media only screen and (max-width: 64em) {
       body { margin: 0; padding: 0; }
       #wrapper { min-width: 0; width: auto; margin: 0; padding: 0; }
@@ -82,6 +89,8 @@ caption { margin: 1em; font-weight: bold; font-size: 120%; }
       nav a { padding: .5em; width: 45%; float: left; min-width: 6em;
         margin-left: 0.5em
       }
+      label { float: none; text-align: left; }
+      input[type="submit"] { margin-left: 0; }
       li { font-size: 100%; }
       .floatleft { float: none; display: none; }
       #mathero { background-image: none; height: 0; }
