@@ -1,0 +1,109 @@
+body {
+  background-color: #003366;
+}
+.main-header {
+  grid-area: header;
+  text-align: center;
+  background-image: url(electricity_title_background.jpg);
+  background-color: #eee;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-header h1 {
+  font-family: impact;
+  font-size: 40px;
+}
+.main-header h2 {
+  color: black;
+}
+.main-nav {
+  grid-area: nav;
+}
+.content {
+  grid-area: content;
+}
+.side {
+  grid-area: sidebar;
+}
+.main-footer {
+  grid-area: footer;
+  text-align: center;
+  color: white;
+}
+footer a:link {
+  color: white;
+}
+footer a:hover {
+  color: #D6EAF8;
+}
+p {
+  color: #D6EAF8;
+}
+h2, h3 {
+  color: #5DADE2;
+}
+h3 {
+  text-align: center;
+}
+nav a {
+  text-decoration: none; color: white; display: block; text-align: left;
+  padding-top: 7px;
+}
+nav a:link { color: white; }
+nav a:hover { color: #D7BDE2; }
+nav ul {
+  list-style-type: none;
+}
+.wrapper {
+  display: grid;
+  grid-template-areas:
+  "header header header header header header"
+  "nav nav content content sidebar sidebar"
+  "footer footer footer footer footer footer";
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+  font-family: helvetica;
+}
+#indexphoto {
+background-image: url(aside.jpg); height: 300px; width: 400px;
+background-repeat: no-repeat; background-size: contain;
+}
+#feedbackphoto {
+background-image: url(aside.jpg); height: 300px; width: 400px;
+background-repeat: no-repeat; background-size: contain;
+}
+#iridescencephoto {
+background-image: url(iridescence.jpg); height: 300px; width: 400px;
+background-repeat: no-repeat; background-size: contain;
+}
+.center {
+  display: block;
+  margin-left: 125px;
+  margin-right: auto;
+  width: 70%;
+}
+table {
+  width: 75%; margin: auto; color: #D6EAF8; background-color: black;
+}
+table a {
+  text-decoration: none;
+}
+table a:link {
+  color: #D6EAF8;
+}
+table a:visited {
+  color: #D6EAF8;
+}
+table a:hover {
+  color: #D7BDE2;
+}
+tr:first-of-type {
+  background-color: black; color: white;
+}
+.evenrow { background-color: #4A235A; }
+.oddrow { background-color: #7D3C98; }
+form {
+  color: #D6EAF8;
+}
