@@ -67,15 +67,7 @@ nav ul {
   font-family: helvetica;
 }
 #indexphoto {
-background-image: url(aside.jpg); height: 300px; width: 400px;
-background-repeat: no-repeat; background-size: contain;
-}
-#feedbackphoto {
-background-image: url(aside.jpg); height: 300px; width: 400px;
-background-repeat: no-repeat; background-size: contain;
-}
-#iridescencephoto {
-background-image: url(iridescence.jpg); height: 300px; width: 400px;
+background-image: url(aside.jpeg); height: 300px; width: 400px;
 background-repeat: no-repeat; background-size: contain;
 }
 .center {
